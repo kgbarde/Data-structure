@@ -1,0 +1,47 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+
+int id1,id2,id3;
+  string title1,title2,title3;
+      
+  //Book1
+   cout<<"Enter Book 1 ID: ";
+   cin>> id1;
+
+  cin.ignore();
+  cout<<"Enter Book 1 title: ";
+  getline(cin,title1);
+
+  //Book2
+  cout<<"Enter Book 2 ID: ";
+  cin>>id2;
+
+  cin.ignore();
+  cout<<"Enter Book 2 title: ";
+  getline(cin,title2);
+
+    //Book3
+  cout<<"Enter Book 3 ID: ";
+  cin>>id3;
+
+  cin.ignore();
+  cout<<"Entr Book 3 title: ";
+  getline(cin,title3);
+
+      //Display
+
+   cout<<"\n\n===========Book Library=============\n\n";
+    cout<<"\n Book ID1="<<id1;
+    cout<<"\t\t\t\t Book Title1 ="<<title1;
+     cout<<"\n Book ID2="<<id2;
+      cout<<"\t\t\t\t Book Title2="<<title2;
+       cout<<"\n Book ID1="<<id3;
+        cout<<"\t\t\t\t Book Title3= "<<title3;
+
+    return 0;
+}
